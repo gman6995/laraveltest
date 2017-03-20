@@ -79,11 +79,11 @@
         }
         public function destroy($id)
         {
-            Student::find($id)->delete();
-            return response(array(
-                    'error' => false,
-                    'message' =>'Product deleted successfully',
-                   ),200);
+            // Student::find($id)->delete();
+            // return response(array(
+            //         'error' => false,
+            //         'message' =>'Student deleted successfully',
+            //        ),200);
         }
     }
     ?>
